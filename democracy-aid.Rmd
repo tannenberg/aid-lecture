@@ -60,13 +60,14 @@ Tre huvudsakliga delområden:
 --
 
 Mål: 
+
 -"to foster and advance democratization"
 
 -"foster democratic citizens"
 
 --
 
-Kom ihåg: Vad som räknas som demokratibistånd beror på hur man definierar demokrati samt på antaganden om vad som verkligen främjar demokrati.
+Kom ihåg: Vad som räknas som demokratibistånd beror på hur man definierar demokrati samt på antaganden om vad som verkligen främjar demokrati (ex fackföreningar).
 
 ---
 
@@ -92,6 +93,16 @@ Kom ihåg: Vad som räknas som demokratibistånd beror på hur man definierar de
 ![](input/oecd-aid-row.png)
 
 ---
+## Kompisövning 1
+
+### Vilka länder har fått mest demokratibistånd de senaste 10 åren?  
+
+---
+
+## Allokering av demokratibistånd 2008-18
+![](input/oecd-world.png)
+
+---
 
 ## Trender och utmaningar (Carothers 2015)
 
@@ -115,18 +126,6 @@ Utmaningar:
 Sweden remains alone among major donor countries in embracing Amrtya Sen's notion of "Development as Freedom"
 
 ---
-
-## Kompisövning 1
-
-### Vilka länder har fått mest demokratibistånd de senaste 10 åren?  
-
----
-
-## Allokering av demokratibistånd 2008-18
-![](input/oecd-world.png)
-
----
-
 
 ## Utsikterna för demokratibistånd 1990
 
@@ -382,7 +381,7 @@ Tack för det fina operahuset men:
 
 --
 
-- Påtvingade folkförflyttning till följd av infrastrukturprojekt 
+- Påtvingad folkförflyttning till följd av infrastrukturprojekt 
 
 --
 
@@ -404,14 +403,15 @@ Tack för det fina operahuset men:
 
 ## Välkommet bistånd?
 
+- Bidrar till exonomisk utveckling
+
 - Avsaknad av kolonialt bagage  
 
-- Ej paternalistiskt 
+- Ej paternalistiskt (ex white mans burden)
 
 - Snabba leveranser, bygger projekt som väst inte finansierar 
 
 - Skrivit av stora lån - senast i Kamerun (dock mörkas det)
-
 
 ---
 
@@ -433,7 +433,7 @@ Hur påverkar kinesiska biståndsprojekt vad folk tycker och tänker om demokrat
 
 --
 
-- Kinas utvecklingsmodell bra -> Kinesiskt bistånd vara associerat med lägre stöd för demokrati
+- Kinas utvecklingsmodell bra -> Kinesiskt bistånd associerat med lägre stöd för demokrati
 
 ---
 
