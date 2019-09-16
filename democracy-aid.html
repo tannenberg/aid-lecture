@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
   <head>
     <title>Bistånd och demokrati</title>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <meta name="author" content="Marcus Tannenberg" />
     <link href="libs/remark-css-0.0.1/default.css" rel="stylesheet" />
     <link href="libs/remark-css-0.0.1/default-fonts.css" rel="stylesheet" />
@@ -14,7 +14,7 @@ class: center, middle, inverse, title-slide
 # Bistånd och demokrati
 ## Hur påverkar internationellt bistånd demokratisering?
 ### Marcus Tannenberg
-### 2018-09-12 (updated: 2019-02-08)
+### 2018-09-12 (updated: 2019-09-16)
 
 ---
 
@@ -58,7 +58,6 @@ class: center, middle, inverse, title-slide
 
 Tre huvudsakliga delområden:
 - Val och politiska partier (contestation)
-
 
 - Reformera statliga institutioner (horisontellt ansvarsutkrävande)
 
@@ -359,7 +358,7 @@ Hur kan auktoritärt bistånd underminera demokratisering?
 
 - Credit claiming
 
-- Taskig av fingertoppskänsla 
+- Taskig fingertoppskänsla 
 
 
 ---
@@ -420,6 +419,21 @@ Tack för det fina operahuset men:
 
 - Skrivit av stora lån - senast i Kamerun (dock mörkas det)
 
+
+---
+
+## Välkommet bistånd?
+
+- En modell att sträva efter
+
+- För 40 levde de flesta i Kina i fattigdom (88%)  
+
+- Världens största ekonomi
+
+- Snabbaste fattigdomsbekämpning i historien (idag 2%)
+
+- I 36 Afrikanska länder anger 24% att Kinas utvecklingsmodell är bäst
+
 ---
 
 ## A Battle for Hearts and Minds? 
@@ -452,7 +466,7 @@ Hur påverkar kinesiska biståndsprojekt vad folk tycker och tänker om demokrat
 
 ## Resultat: a (losing) Battle for Hearts and Minds?
 
-Respondenter som bor nära (inom 50km) kinesiska projekt är: 
+Respondenter som bor nära (inom 00km) kinesiska projekt är: 
 
 - mindre benägna att vara positivt inställda till Kina
 
@@ -497,13 +511,15 @@ Auktoritärt bistånd:
 
 ## Litteratur 
 - Carothers, Thomas. "Democracy aid at 25: Time to choose." Journal of Democracy 26.1 (2015): 59-73.
-- Finkel, Steven E., Aníbal Pérez-Liñán, and Mitchell A. Seligson. "The effects of US foreign assistance on democracy building, 1990–2003." World Politics 59.3 (2007): 404-439.
-- Li, Xiaojun. "Does Conditionality Still Work? China’s Development Assistance and Democracy in Africa." Chinese Political Science Review 2.2 (2017): 201-220.
+- "Development Aid From Dictators: Damaging for Democracy?" Annals of Comp. Democratization 17(2) 2019. Bermeo, Bader, Hackenesch, Parks, Strange and Tannenberg  [link](https://gallery.mailchimp.com/195d6bf7bad75a3ef81189778/files/96ee2113-2c81-44e2-905d-6c7309e7e3e7/APSA_June2019.pdf)
 
 Extra:
+- Finkel, Steven E., Aníbal Pérez-Liñán, and Mitchell A. Seligson. "The effects of US foreign assistance on democracy building, 1990–2003." World Politics 59.3 (2007): 404-439.
+- Li, Xiaojun. "Does Conditionality Still Work? China’s Development Assistance and Democracy in Africa." Chinese Political Science Review 2.2 (2017): 201-220.
 - Hernandez, Diego. "Are “New” Donors Challenging World Bank Conditionality?." World Development 96 (2017): 529-549.
 - Dreher, Axel, et al. "Aid on demand: African leaders and the geography of China's foreign assistance." (2016).
     </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
 <script>var slideshow = remark.create({
 "highlightStyle": "github",
@@ -513,16 +529,57 @@ Extra:
 if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
   window.dispatchEvent(new Event('resize'));
 });
-(function() {
-  var d = document, s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
   if (!r) return;
   s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
   d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
 })();</script>
 
 <script>
 (function() {
-  var i, text, code, codes = document.getElementsByTagName('code');
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
   for (i = 0; i < codes.length;) {
     code = codes[i];
     if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
@@ -536,14 +593,15 @@ if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
     }
     i++;
   }
-})();
+};
+slideshow._releaseMath(document);
 </script>
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
 (function () {
   var script = document.createElement('script');
   script.type = 'text/javascript';
-  script.src  = 'https://cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
   if (location.protocol !== 'file:' && /^https?:/.test(script.src))
     script.src  = script.src.replace(/^https?:/, '');
   document.getElementsByTagName('head')[0].appendChild(script);
